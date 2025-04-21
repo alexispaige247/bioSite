@@ -1,0 +1,66 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #e9e0c7;
+  color: #4a3f35;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #d4c5a7;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7a9371;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section.bio-intro {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+section.bio-intro img {
+  width: 200px;
+  border-radius: 12px;
+
+footer {
+    background-color: #d4c5a7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
