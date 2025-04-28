@@ -6,18 +6,27 @@ body {
   padding: 0;
 }
 
-nav {
+.navbar {
   background-color: #d4c5a7;
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+  padding: 20px 0;
+  text-align: center;
 }
 
-nav a {
-  text-decoration: none;
-  color: #7a9371;
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 20px:
+}
+
+.navbar a {
+  text-deoration: none;
   font-weight: bold;
+  color: #4a3f35;
 }
 
 header {
